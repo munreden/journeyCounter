@@ -1,0 +1,20 @@
+body {
+    font-family: 'KG Second Chances Sketch', sans-serif;
+    background: url('https://wallpapercave.com/wp/wp5018688.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+  }
+  .countdown {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .time {
+    font-size: 3rem;
+    margin: 20px 0;
+  }
