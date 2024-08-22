@@ -1,41 +1,83 @@
-body {
-    font-family: 'KG Second Chances Sketch', sans-serif;
+:root {
+    /* Variables de color */
+    --primary-color: white;
+    --background-color: rgba(0, 0, 0, 0.7);
+  
+    /* Variables de fuente */
+    --font-family-main: 'KG Second Chances Sketch', sans-serif;
+    --font-family-heading: 'KG Second Chances Solid', sans-serif;
+  
+    /* Tamaños de fuente */
+    --font-size-heading-large: 65px;
+    --font-size-heading-medium: 50px;
+    --font-size-heading-small: 25px;
+
+    --font-size-time-large: 150px;
+    --font-size-time-medium: 100px;
+    --font-size-time-small: 50px;
+
+    --padding-size-travelDate-large: 50px;
+    --padding-size-travelDate-medium: 30px;
+    --padding-size-travelDate-small: 20px;
+  }
+  
+  body {
+    font-family: var(--font-family-main);
     background: url('https://wallpapercave.com/wp/wp5018688.jpg') no-repeat center center fixed;
     background-size: cover;
+    margin: 0;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    color: white;
+    color: var(--primary-color);
     text-align: center;
   }
-h1{
-    font-size: 65px; /* Tamaño base por defecto */
-}
+  
+  h1 {
+    font-size: var(--font-size-heading-large);
+    font-family: var(--font-family-heading);
+  }
+
+  #travelDate h1{
+    padding-top: var(--padding-size-travelDate-large);
+  }
+  
   .countdown {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: var(--background-color);
     padding: 20px;
     border-radius: 10px;
   }
+  
   .time {
-    font-size: 150px; /* Tamaño base por defecto */
+    font-size: var(--font-size-time-large);
     margin: 20px 0;
   }
   
   @media (max-width: 768px) {
     .time {
-      font-size: 50px; /* Tamaño de fuente para dispositivos móviles */
+      font-size: var(--font-size-time-small);
     }
-    h1{
-        font-size: 25px; /* Tamaño base por defecto */
-    }    
+  
+    h1 {
+      font-size: var(--font-size-heading-small);
+    }
+
+    #travelDate h1{
+        padding-top: var(--padding-size-travelDate-small);
+      }
   }
   
   @media (min-width: 769px) and (max-width: 1200px) {
     .time {
-      font-size: 100px; /* Tamaño de fuente para tabletas o pantallas medianas */
+      font-size: var(--font-size-time-medium);
     }
-    h1{
-        font-size: 50px; /* Tamaño base por defecto */
-    }    
-  }
+  
+    h1 {
+      font-size: var(--font-size-heading-medium);
+    }
+
+    #travelDate h1{
+        padding-top: var(--padding-size-travelDate-medium);
+      }
+  }  
