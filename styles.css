@@ -9,12 +9,33 @@ body {
     color: white;
     text-align: center;
   }
+h1{
+    font-size: 65px; /* Tamaño base por defecto */
+}
   .countdown {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 10px;
   }
   .time {
-    font-size: 3rem;
+    font-size: 150px; /* Tamaño base por defecto */
     margin: 20px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .time {
+      font-size: 50px; /* Tamaño de fuente para dispositivos móviles */
+    }
+    h1{
+        font-size: 25px; /* Tamaño base por defecto */
+    }    
+  }
+  
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .time {
+      font-size: 100px; /* Tamaño de fuente para tabletas o pantallas medianas */
+    }
+    h1{
+        font-size: 50px; /* Tamaño base por defecto */
+    }    
   }
