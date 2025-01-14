@@ -1,8 +1,8 @@
-const travelDate = '2024-12-07T08:50:00';
+const travelDate = '2025-03-07T19:30:00';
 const printedTravelDate = printTravelDate(travelDate);
-const city = 'Londres';
+const city = 'Concierto Pignoise';
 const countdownDate = new Date(travelDate).getTime();
-const title = `¡Próximo viaje a ${city}!`;
+const title = `¡${city}!`;//`¡Próximo viaje a ${city}!`;
 
 // Creates the city title
 createTitle(title, 'title', 'h2');

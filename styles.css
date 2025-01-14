@@ -20,11 +20,14 @@
   --padding-size-travelDate-large: 50px;
   --padding-size-travelDate-medium: 30px;
   --padding-size-travelDate-small: 20px;
+
+  --background-image: url('https://s2.ppllstatics.com/leonoticias/www/multimedia/2024/10/29/pignoise-kY8D--1920x1080@Leonoticias.jpg') no-repeat center center fixed;
+  --background-image-mobile: url('https://s3.eu-central-1.amazonaws.com/images.jacksonlive.es/upload/concerts/hd/357301703695250.jpg') no-repeat center center fixed;
 }
 
 body {
   font-family: var(--font-family-main);
-  background: url('https://wallpapercave.com/wp/wp5018688.jpg') no-repeat center center fixed;
+  background: var(--background-image);
   background-size: cover;
   /* height: 100vh; */
   margin-top: 10%;
@@ -63,6 +66,8 @@ h1 {
 @media (max-width: 768px) {
   body{
     margin-top: 5%;
+    background: var(--background-image-mobile);
+    background-size: cover;
   }
 
   .time {
@@ -85,6 +90,8 @@ h1 {
 @media (min-width: 769px) and (max-width: 1200px) {
   body{
     margin-top: 5%;
+    background: var(--background-image-mobile);
+    background-size: cover;
   }
 
   .time {
