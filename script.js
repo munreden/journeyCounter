@@ -1,6 +1,6 @@
-const travelDate = '2025-07-18T18:40:00';
+const travelDate = '2025-09-01T09:00:00';
 const printedTravelDate = printTravelDate(travelDate);
-const city = 'Lyon';
+const city = 'Guardamar del Segura';
 const countdownDate = new Date(travelDate).getTime();
 const title = `¡Próximo viaje a ${city}!`;
 
