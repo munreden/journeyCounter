@@ -21,8 +21,8 @@
   --padding-size-travelDate-medium: 30px;
   --padding-size-travelDate-small: 20px;
 
-  --background-image: url('https://multimedia.comunitatvalenciana.com/3538B98AA8444BDE8C73D306F2A6D2DC/img/C83C8B2E50AC464D9EE3DC63D80EC518/Guardamar_del_Segura_PLAYA_ELS_VIVERS_4.jpg') no-repeat center center fixed;
-  --background-image-mobile: url('https://media-cdn.tripadvisor.com/media/photo-s/2c/6e/c6/32/caption.jpg') no-repeat center center fixed;
+  --background-image: url('https://guardamarturismo.com/wp-content/uploads/2020/03/cabecera.jpg') no-repeat center center fixed;
+  --background-image-mobile: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/88/64/d0/parque-alfonso-xiii.jpg') no-repeat center center fixed;
 }
 
 body {
