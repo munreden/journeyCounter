@@ -21,8 +21,8 @@
   --padding-size-travelDate-medium: 30px;
   --padding-size-travelDate-small: 20px;
 
-  --background-image: url('https://i.imgur.com/2NY4ZEY.jpeg') no-repeat center center fixed;
-  --background-image-mobile: url('https://i.imgur.com/2NY4ZEY.jpeg') no-repeat center center fixed;
+  --background-image: url('https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg') no-repeat center center fixed;
+  --background-image-mobile: url('https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg') no-repeat center center fixed;
 }
 
 body {
